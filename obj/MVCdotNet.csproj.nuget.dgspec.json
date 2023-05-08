@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCdotNet\\MVCdotNet.csproj": {}
+    "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCDotNet\\MVCdotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCdotNet\\MVCdotNet.csproj": {
+    "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCDotNet\\MVCdotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCdotNet\\MVCdotNet.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCDotNet\\MVCdotNet.csproj",
         "projectName": "MVCdotNet",
-        "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCdotNet\\MVCdotNet.csproj",
+        "projectPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCDotNet\\MVCdotNet.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCdotNet\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
