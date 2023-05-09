@@ -29,3 +29,18 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }
+    // public class CategoryController : Controller
+    // {
+    //     // 
+    //     // GET: /HelloWorld/
+    //     public string Index()
+    //     {
+    //         return "This is my default action...";
+    //     }
+    //     // 
+    //     // GET: /HelloWorld/Welcome/ 
+    //     public string Welcome()
+    //     {
+    //         return "This is the Welcome action method...";
+    //     }
+    // }

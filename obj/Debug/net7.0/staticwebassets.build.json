@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d4z4hc3txTmjMHU0LoctwUSo9aNxLkyZeC1FiPUn6d4=",
+  "Hash": "WuI+BueVDCTYeehQnN9tWZqMlhm4Pg1ccrBJEv0p5YM=",
   "Source": "MVCdotNet",
   "BasePath": "_content/MVCdotNet",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCDotNet\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MVCdotNet.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCDotNet\\wwwroot\\css\\bootswatchTheme.css",
+      "SourceId": "MVCdotNet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCDotNet\\wwwroot\\",
+      "BasePath": "_content/MVCdotNet",
+      "RelativePath": "css/bootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\Admin\\OneDrive\\Desktop\\C#\\MVCDotNet\\wwwroot\\css\\site.css",

@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MVCDotNet.Data;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,9 +9,13 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
 )); 
+var mvcBuilder = builder.Services.AddRazorPages();
 
+if (builder.Environment.IsDevelopment())
+{
+    mvcBuilder.AddRazorRuntimeCompilation();
+}
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
